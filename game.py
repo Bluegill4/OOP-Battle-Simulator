@@ -18,6 +18,7 @@ def main():
 
     print("But no hero has answered the call... yet.")
     print(f"{hero.name} enter the arena with {hero.health} health.")
+    print(f"{hero.battle_cry()}")
     print(f"{hero.name} surprises {goblin1.name} with an attack!")
     theAttack = hero.attack()
     print(f"It does "+ str(theAttack)+" damage!")
