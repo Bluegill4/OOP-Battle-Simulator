@@ -8,9 +8,8 @@ class Dragon(Enemy):
         super().__init__(name, health = 100, attackPower = 11)
         self.gold = 0
 
-    def attack(self, hero):
+    def attack(self):
         """Goblins steal hero gold"""
-        hero.sad()
         return random.randint(10, self.attack_power)
         print("no more Excell for you")
 
